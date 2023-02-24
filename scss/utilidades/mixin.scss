@@ -1,0 +1,16 @@
+@mixin encabezado {
+    background-color:black;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 10px;
+ }
+
+ @mixin footer_general{
+    
+        color: #fdf8f8;
+        background-color: #524949;
+      
+ }

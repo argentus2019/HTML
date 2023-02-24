@@ -1,0 +1,21 @@
+@import "../utilidades/variables.scss";
+@import "../utilidades/mixin.scss";
+
+header {@include encabezado};
+
+
+
+article {
+
+   padding: 20px;
+}
+article h2 {
+   color: red;
+   padding-bottom: 20px;
+   text-align: center;
+}
+img {
+   width: 100%;
+}
+
+footer{ @include footer_general};
