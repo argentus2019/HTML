@@ -4,13 +4,20 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100px;
+    min-height: 150px;
     padding: 10px;
+
+ }
+
+ @mixin body{
+
+       position: relative;
+       min-height: 100vh;
  }
 
  @mixin footer_general{
     
-        color: #fdf8f8;
-        background-color: #524949;
-      
+       color: #fdf8f8;
+       background-color: #524949;
+             
  }

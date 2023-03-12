@@ -17,7 +17,14 @@
     -1px 1px 0 #fff,
      1px 1px 0 #fff;
       }
-    .carousel-item {
-      
-      height: 500px;
-    }
+      .parrafoImportante {
+         
+        color: $color-h2-nosotros;
+        -webkit-transition: color 1s linear;
+        transition: color 1s linear;
+        
+        &:hover{
+          color: red;
+        }
+        
+      }
